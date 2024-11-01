@@ -36,4 +36,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         # 使用 skopeo 工具将镜像同步到阿里云个人仓库中，使用时请自行源和目标修改仓库名称和镜像名称
-         skopeo copy docker://docker.io/nacos/nacos-server:v2.2.0 docker://crpi-fr9je9jfjvfhw8lu.ap-southeast-1.personal.cr.aliyuncs.com/nacos-server:v2.2.0
+         skopeo copy docker://docker.io/nacos/nacos-server:v2.2.0 docker://crpi-fr9je9jfjvfhw8lu.ap-southeast-1.personal.cr.aliyuncs.com/test20241031/nacos-server:v2.2.0
